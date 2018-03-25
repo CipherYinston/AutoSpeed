@@ -1,0 +1,66 @@
+@media (max-width: 802px) {
+	h1 {
+		font-size: 3.125em;
+	}
+	.logo {
+		width: 20%;
+	}
+	ul li {
+		font-size: 1.5em;
+	}
+	#ours_good_marks h2,
+	#contacts h2 {
+		font-size: 3.125em;
+	}
+}
+@media (max-width: 586px) {
+	h1 {
+		font-size: 2.5em;
+	}
+	nav {
+        height: 140px;
+    }
+    nav>ul {
+        width: 80px;
+	}
+    ul>li {
+        display: none;
+		margin: 0;
+		padding: 10%;
+    }
+    ul>#first {
+        display: block;
+    }
+    nav>ul:hover li {
+        display: block;
+    }
+    .logo {
+    	align-self: flex-start;
+    }
+	#ours_good_marks h2,
+	#contacts h2 {
+		font-size: 2.5em;
+	}
+}
+@media (max-width: 476px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	button,
+	.btn {
+		padding: 0.5% 0.5%;
+		font-size: 2.8125em;
+	}
+	#ours_good_marks h2,
+	#contacts h2 {
+		font-size: 1em;
+	}
+	#contacts p {
+		font-size: 1em;
+	}
+}
+@media (max-width: 290px) {
+	h1 {
+		font-size: 1em;
+	}
+}
